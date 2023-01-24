@@ -10,14 +10,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { MainComponent } from './main/main.component';
+import { UserLoginComponent } from './user-login/user-login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent
+    UserLoginComponent
   ],
   imports: [
     BrowserModule,
