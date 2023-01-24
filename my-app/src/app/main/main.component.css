@@ -1,0 +1,65 @@
+.login-container {
+  width: 350px;
+  height: 250px;
+  margin: auto;
+  margin-top: 30px;
+  background: #f2f2f2;
+  position: relative;
+}
+.login-container .login-title {
+  width: 90%;
+  margin: 0 auto;
+}
+.login-container .login-title h2 {
+  color: black;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+.login-container .form {
+  display: flex;
+  justify-content: center;
+}
+.login-container .form .example-form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.login-container .form .example-form .example-full-width {
+  width: 100%;
+}
+.login-container .form .example-form .example-full-width input {
+  height: 37px;
+  background: #e0e0e0;
+}
+.login-container .form .example-form mat-label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #828282;
+}
+.login-container .form .example-form .container-for-button {
+  width: 100px;
+  position: absolute;
+  right: 52px;
+  bottom: 15px;
+}
+.login-container .form .example-form .container-for-button .login-button {
+  width: 124px;
+  height: 30px;
+  background: #2f80ed;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+}
